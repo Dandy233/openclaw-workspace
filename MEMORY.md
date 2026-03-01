@@ -30,6 +30,7 @@
   - ✅ 探索安装weather技能，summarize待安装
   - ✅ 安全加固，运行openclaw doctor
   - 📄 生成完整优化报告：`docs/openclaw-optimization-report.md`
+  - 📁 报告已归档：`archive/openclaw-optimization-report-2026-03-01.md`
 
 ### 运行中的定时任务
 - [x] daily-it-news：每天9:00 IT新闻简报 ✅ 已恢复

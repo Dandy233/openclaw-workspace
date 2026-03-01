@@ -112,19 +112,12 @@ curl -s "wttr.in/Beijing.png" -o /tmp/weather.png
 ```
 
 ### 🧾 Summarize (内容摘要)
-- **状态**: ⏳ 待安装CLI
-- **来源**: clawhub (summarize)
-- **功能**: 从URL、播客、本地文件提取文本和转录
-- **用途**: YouTube/视频转录的备选方案
+- **状态**: ✅ 已安装（简化版）
+- **来源**: 本地脚本
+- **功能**: 从URL提取网页文本，从本地文件提取内容
+- **用途**: 快速阅读文章、文档预览
 
-**安装**:
-```bash
-# macOS
-brew install summarize
-
-# 或 npm
-npm install -g summarize-cli
-```
+**安装位置**: `scripts/summarize`
 
 **使用方法**:
 ```bash
@@ -132,16 +125,17 @@ npm install -g summarize-cli
 summarize https://example.com/article
 
 # 本地文件
-summarize document.pdf
+summarize /path/to/document.txt
+```
 
-# 视频转录（YouTube等）
-summarize https://youtube.com/watch?v=xxx
+**注意**: 当前安装的是简化版，使用curl+文本提取实现。完整版功能（PDF解析、视频转录）需安装官方CLI：
+```bash
+brew install summarize  # macOS
 ```
 
 **使用场景**:
 - 快速了解长文章内容
-- 视频内容转录
-- 播客文字稿提取
+- 提取网页正文（去除广告/导航）
 - 文档自动摘要
 
 ### 📦 ClawHub 技能管理
