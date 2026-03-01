@@ -60,14 +60,18 @@ parse_markdown() {
         exit 1
     fi
     
-    # 提取已观看的作品
-    local watched=$(grep -E '^\| \[x\]' "$file" | wc -l)
-    local total=$(grep -E '^\| \[[ x]\]' "$file" | wc -l)
+    # 提取已观看的作品 (支持多种格式)
+    local watched=$(grep -E '^\|' "$file" | grep -E '\[x\]' | grep -v '示例\|格式\|→\|改为' | wc -l)
+    local total=$(grep -E '^\|' "$file" | grep -E '\[[ x]\]' | grep -v '示例\|格式\|→\|改为' | wc -l)
+    
+    if [[ $total -eq 0 ]]; then
+        total=1  # 避免除零
+    fi
     
     # 按分类统计
-    local japanese=$(grep -A 100 '## 一、日本动画篇' "$file" | grep -E '^\| \[x\]' | wc -l)
-    local chinese=$(grep -A 100 '## 二、国产动画篇' "$file" | grep -E '^\| \[x\]' | wc -l)
-    local western=$(grep -A 100 '## 三、欧美动画篇' "$file" | grep -E '^\| \[x\]' | wc -l)
+    local japanese=$(grep -A 200 '## 一、日本动画篇' "$file" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
+    local chinese=$(grep -A 100 '## 二、国产动画篇' "$file" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
+    local western=$(grep -A 100 '## 三、欧美动画篇' "$file" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
     
     # 生成JSON
     cat << EOF
@@ -77,7 +81,7 @@ parse_markdown() {
   "statistics": {
     "total_watched": $watched,
     "total_anime": $total,
-    "completion_rate": $(echo "scale=2; $watched * 100 / $total" | bc 2>/dev/null || echo "0"),
+    "completion_rate": $(awk "BEGIN {printf \"%.2f\", $watched * 100 / $total}" 2>/dev/null || echo "0"),
     "by_region": {
       "japanese": $japanese,
       "chinese": $chinese,
@@ -85,7 +89,7 @@ parse_markdown() {
     }
   },
   "watched_list": [
-$(grep -E '^\| \[x\]' "$file" | sed 's/| \[x\] | /** /; s/ |.*$//' | sed 's/^/    "/; s/$/",/' | sed '$ s/,$//')
+$(grep -E '\[x\]' "$file" | grep -v '示例\|格式\|→\|改为' | sed 's/^.*\[x\]/✓ /; s/\[\[.*\]\]//g; s/\*\*//g' | head -20 | sed 's/^/    "/; s/$/",/' | sed '$ s/,$//' | head -50)
   ],
   "backup_version": "1.0"
 }
@@ -126,10 +130,14 @@ show_stats() {
     echo -e "${BLUE}📊 动漫收藏统计${NC}"
     echo "========================"
     
-    local json_data=$(parse_markdown "$MARKDOWN_FILE")
+    # 匹配表格中的复选框格式: | [ ] 或 | [x] (可能前面有其他内容)
+    local watched=$(grep -E '^\|' "$MARKDOWN_FILE" | grep -E '\[x\]' | grep -v '示例\|格式\|→\|改为\|标记' | wc -l)
+    local total=$(grep -E '^\|' "$MARKDOWN_FILE" | grep -E '\[[ x]\]' | grep -v '示例\|格式\|→\|改为\|标记' | wc -l)
     
-    local watched=$(grep -E '^\| \[x\]' "$MARKDOWN_FILE" | wc -l)
-    local total=$(grep -E '^\| \[[ x]\]' "$MARKDOWN_FILE" | wc -l)
+    if [[ $total -eq 0 ]]; then
+        total=1  # 避免除零错误
+    fi
+    
     local percentage=$((watched * 100 / total))
     
     echo ""
@@ -147,9 +155,9 @@ show_stats() {
     echo ""
     
     # 按地区统计
-    local jp=$(grep -A 100 '## 一、日本动画篇' "$MARKDOWN_FILE" | grep -E '^\| \[x\]' | wc -l)
-    local cn=$(grep -A 100 '## 二、国产动画篇' "$MARKDOWN_FILE" | grep -E '^\| \[x\]' | wc -l)
-    local en=$(grep -A 100 '## 三、欧美动画篇' "$MARKDOWN_FILE" | grep -E '^\| \[x\]' | wc -l)
+    local jp=$(grep -A 200 '## 一、日本动画篇' "$MARKDOWN_FILE" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
+    local cn=$(grep -A 100 '## 二、国产动画篇' "$MARKDOWN_FILE" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
+    local en=$(grep -A 100 '## 三、欧美动画篇' "$MARKDOWN_FILE" | grep -E '^\|' | grep -E '\[x\]' | grep -v '示例\|格式' | wc -l)
     
     echo -e "按地区统计:"
     echo -e "  🇯🇵 日本动画: ${GREEN}$jp${NC} 部"
