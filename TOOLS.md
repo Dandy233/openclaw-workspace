@@ -112,7 +112,7 @@ curl -s "wttr.in/Beijing.png" -o /tmp/weather.png
 ```
 
 ### 🧾 Summarize (内容摘要)
-- **状态**: ⏳ 安装中（ClawHub速率限制，已设置自动重试）
+- **状态**: ⏳ 安装中（ClawHub速率限制，等待下次重试）
 - **来源**: clawhub (summarize)
 - **功能**: 从URL、PDF、音频、视频提取文本和转录
 - **用途**: 快速阅读文章、视频内容转录
@@ -122,8 +122,15 @@ curl -s "wttr.in/Beijing.png" -o /tmp/weather.png
 clawhub install summarize --no-input
 ```
 
-**安装受阻原因**: ClawHub 下载速率限制 + GitHub 网络超时
-**解决方案**: 已设置定时任务 `install-summarize-retry` 于 01:30 自动重试
+**安装日志**:
+- 2026-03-02 01:30: 第1次尝试失败 ❌ ClawHub 速率限制
+- 下次重试: 2026-03-04 01:30 (任务ID: install-summarize-retry-v2)
+
+**使用场景**:
+- 快速了解长文章内容
+- 视频内容转录（YouTube等）
+- 播客文字稿提取
+- PDF文档自动摘要
 
 **使用场景**:
 - 快速了解长文章内容

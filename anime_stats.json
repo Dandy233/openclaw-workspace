@@ -1,0 +1,1005 @@
+{
+  "generated_at": "2026-03-02T01:39:13.388921",
+  "stats": {
+    "total": 116,
+    "watched": 6,
+    "unwatched": 110,
+    "completion_rate": 5.17,
+    "by_region": {
+      "日本动画": {
+        "total": 71,
+        "watched": 4
+      },
+      "国产动画": {
+        "total": 22,
+        "watched": 1
+      },
+      "欧美动画": {
+        "total": 23,
+        "watched": 1
+      }
+    },
+    "by_decade": {
+      "1980s": 25,
+      "1990s": 39,
+      "2000s": 38,
+      "1970s": 5,
+      "2010s+": 5,
+      "1960s": 2
+    },
+    "by_category": {
+      "热血/科幻": {
+        "total": 25,
+        "watched": 2
+      },
+      "魔法少女": {
+        "total": 6,
+        "watched": 0
+      },
+      "搞笑日常": {
+        "total": 36,
+        "watched": 1
+      },
+      "推理悬疑": {
+        "total": 4,
+        "watched": 0
+      },
+      "恋爱校园": {
+        "total": 11,
+        "watched": 0
+      },
+      "运动竞技": {
+        "total": 1,
+        "watched": 0
+      },
+      "吉卜力": {
+        "total": 18,
+        "watched": 2
+      },
+      "上海美影厂": {
+        "total": 15,
+        "watched": 1
+      }
+    },
+    "special_collections": {
+      "ghibli": {
+        "total": 18,
+        "watched": 2
+      },
+      "shanghai_animation": {
+        "total": 15,
+        "watched": 1
+      }
+    }
+  },
+  "anime_list": [
+    {
+      "name": "七龙珠Z",
+      "watched": true,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1989,
+      "line_index": 49
+    },
+    {
+      "name": "灌篮高手",
+      "watched": true,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1993,
+      "line_index": 50
+    },
+    {
+      "name": "幽游白书",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1992,
+      "line_index": 51
+    },
+    {
+      "name": "火影忍者",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2002,
+      "line_index": 52
+    },
+    {
+      "name": "海贼王",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1999,
+      "line_index": 53
+    },
+    {
+      "name": "死神",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2004,
+      "line_index": 54
+    },
+    {
+      "name": "圣斗士星矢",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1986,
+      "line_index": 55
+    },
+    {
+      "name": "浪客剑心",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1996,
+      "line_index": 56
+    },
+    {
+      "name": "钢之炼金术师",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2003,
+      "line_index": 57
+    },
+    {
+      "name": "犬夜叉",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2000,
+      "line_index": 58
+    },
+    {
+      "name": "全职猎人",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1999,
+      "line_index": 59
+    },
+    {
+      "name": "新世纪福音战士(EVA)",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1995,
+      "line_index": 65
+    },
+    {
+      "name": "高达系列",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1979,
+      "line_index": 66
+    },
+    {
+      "name": "超时空要塞",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1982,
+      "line_index": 67
+    },
+    {
+      "name": "银河英雄传说",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1988,
+      "line_index": 68
+    },
+    {
+      "name": "宇宙战舰大和号",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1974,
+      "line_index": 69
+    },
+    {
+      "name": "天元突破红莲螺岩",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2007,
+      "line_index": 70
+    },
+    {
+      "name": "攻壳机动队",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1995,
+      "line_index": 71
+    },
+    {
+      "name": "机动战舰抚子号",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1996,
+      "line_index": 72
+    },
+    {
+      "name": "美少女战士",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 1992,
+      "line_index": 78
+    },
+    {
+      "name": "魔卡少女樱",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 1998,
+      "line_index": 79
+    },
+    {
+      "name": "魔法骑士雷阿斯",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 1994,
+      "line_index": 80
+    },
+    {
+      "name": "秀逗魔导士",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 1995,
+      "line_index": 81
+    },
+    {
+      "name": "小魔女DoReMi",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 1999,
+      "line_index": 82
+    },
+    {
+      "name": "寻找满月",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 2002,
+      "line_index": 83
+    },
+    {
+      "name": "名侦探柯南",
+      "watched": false,
+      "region": "日本动画",
+      "category": "推理悬疑",
+      "year": 1996,
+      "line_index": 89
+    },
+    {
+      "name": "樱桃小丸子",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 1990,
+      "line_index": 90
+    },
+    {
+      "name": "蜡笔小新",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 1992,
+      "line_index": 91
+    },
+    {
+      "name": "棒球英豪(Touch)",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 1985,
+      "line_index": 92
+    },
+    {
+      "name": "相聚一刻",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 1986,
+      "line_index": 93
+    },
+    {
+      "name": "乱马1/2",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 1989,
+      "line_index": 94
+    },
+    {
+      "name": "他和她的故事",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 1998,
+      "line_index": 95
+    },
+    {
+      "name": "水果篮子",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2001,
+      "line_index": 96
+    },
+    {
+      "name": "NANA",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2006,
+      "line_index": 97
+    },
+    {
+      "name": "蜂蜜与四叶草",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2005,
+      "line_index": 98
+    },
+    {
+      "name": "Clannad",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2007,
+      "line_index": 99
+    },
+    {
+      "name": "CLANNAD ~AFTER STORY~",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2008,
+      "line_index": 100
+    },
+    {
+      "name": "龙与虎",
+      "watched": false,
+      "region": "日本动画",
+      "category": "恋爱校园",
+      "year": 2008,
+      "line_index": 101
+    },
+    {
+      "name": "足球小将",
+      "watched": false,
+      "region": "日本动画",
+      "category": "运动竞技",
+      "year": 1983,
+      "line_index": 107
+    },
+    {
+      "name": "网球王子",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2001,
+      "line_index": 108
+    },
+    {
+      "name": "棋魂",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2001,
+      "line_index": 109
+    },
+    {
+      "name": "头文字D",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1998,
+      "line_index": 110
+    },
+    {
+      "name": "四驱兄弟",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 1996,
+      "line_index": 111
+    },
+    {
+      "name": "棒球大联盟",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2004,
+      "line_index": 112
+    },
+    {
+      "name": "阿拉蕾",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 1980,
+      "line_index": 118
+    },
+    {
+      "name": "忍者乱太郎",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 1993,
+      "line_index": 119
+    },
+    {
+      "name": "银魂",
+      "watched": false,
+      "region": "日本动画",
+      "category": "热血/科幻",
+      "year": 2006,
+      "line_index": 120
+    },
+    {
+      "name": "幸运星",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 2007,
+      "line_index": 121
+    },
+    {
+      "name": "凉宫春日的忧郁",
+      "watched": false,
+      "region": "日本动画",
+      "category": "搞笑日常",
+      "year": 2006,
+      "line_index": 122
+    },
+    {
+      "name": "金田一少年事件簿",
+      "watched": false,
+      "region": "日本动画",
+      "category": "推理悬疑",
+      "year": 1997,
+      "line_index": 128
+    },
+    {
+      "name": "死亡笔记",
+      "watched": false,
+      "region": "日本动画",
+      "category": "推理悬疑",
+      "year": 2006,
+      "line_index": 129
+    },
+    {
+      "name": "名侦探柯南剧场版",
+      "watched": false,
+      "region": "日本动画",
+      "category": "推理悬疑",
+      "year": 1997,
+      "line_index": 130
+    },
+    {
+      "name": "龙猫",
+      "watched": true,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1988,
+      "line_index": 136
+    },
+    {
+      "name": "千与千寻",
+      "watched": true,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2001,
+      "line_index": 137
+    },
+    {
+      "name": "天空之城",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1986,
+      "line_index": 138
+    },
+    {
+      "name": "魔女宅急便",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1989,
+      "line_index": 139
+    },
+    {
+      "name": "幽灵公主",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1997,
+      "line_index": 140
+    },
+    {
+      "name": "哈尔的移动城堡",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2004,
+      "line_index": 141
+    },
+    {
+      "name": "风之谷",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1984,
+      "line_index": 142
+    },
+    {
+      "name": "萤火虫之墓",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1988,
+      "line_index": 143
+    },
+    {
+      "name": "哆啦A梦",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1979,
+      "line_index": 149
+    },
+    {
+      "name": "数码宝贝",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1999,
+      "line_index": 150
+    },
+    {
+      "name": "神奇宝贝(精灵宝可梦)",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1997,
+      "line_index": 151
+    },
+    {
+      "name": "游戏王",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1998,
+      "line_index": 152
+    },
+    {
+      "name": "中华小当家",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 1997,
+      "line_index": 153
+    },
+    {
+      "name": "夏目友人帐",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2008,
+      "line_index": 154
+    },
+    {
+      "name": "虫师",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2005,
+      "line_index": 155
+    },
+    {
+      "name": "反叛的鲁路修",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2006,
+      "line_index": 156
+    },
+    {
+      "name": "命运石之门",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2011,
+      "line_index": 157
+    },
+    {
+      "name": "未闻花名",
+      "watched": false,
+      "region": "日本动画",
+      "category": "吉卜力",
+      "year": 2011,
+      "line_index": 158
+    },
+    {
+      "name": "魔法少女小圆",
+      "watched": false,
+      "region": "日本动画",
+      "category": "魔法少女",
+      "year": 2011,
+      "line_index": 159
+    },
+    {
+      "name": "大闹天宫",
+      "watched": true,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1961,
+      "line_index": 169
+    },
+    {
+      "name": "哪吒闹海",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1979,
+      "line_index": 170
+    },
+    {
+      "name": "天书奇谭",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1983,
+      "line_index": 171
+    },
+    {
+      "name": "黑猫警长",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1984,
+      "line_index": 172
+    },
+    {
+      "name": "葫芦兄弟",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1986,
+      "line_index": 173
+    },
+    {
+      "name": "舒克和贝塔",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1989,
+      "line_index": 174
+    },
+    {
+      "name": "阿凡提的故事",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1979,
+      "line_index": 175
+    },
+    {
+      "name": "三个和尚",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1980,
+      "line_index": 176
+    },
+    {
+      "name": "九色鹿",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1981,
+      "line_index": 177
+    },
+    {
+      "name": "雪孩子",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1980,
+      "line_index": 178
+    },
+    {
+      "name": "西游记(动画版)",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1999,
+      "line_index": 184
+    },
+    {
+      "name": "哪吒传奇",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 2003,
+      "line_index": 185
+    },
+    {
+      "name": "小鲤鱼历险记",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 2007,
+      "line_index": 186
+    },
+    {
+      "name": "虹猫蓝兔七侠传",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 2006,
+      "line_index": 187
+    },
+    {
+      "name": "蓝猫淘气三千问",
+      "watched": false,
+      "region": "国产动画",
+      "category": "上海美影厂",
+      "year": 1999,
+      "line_index": 188
+    },
+    {
+      "name": "大头儿子和小头爸爸",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 1995,
+      "line_index": 189
+    },
+    {
+      "name": "海尔兄弟",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 1995,
+      "line_index": 190
+    },
+    {
+      "name": "围棋少年",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 2005,
+      "line_index": 191
+    },
+    {
+      "name": "神厨小福贵",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 2007,
+      "line_index": 192
+    },
+    {
+      "name": "喜羊羊与灰太狼",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 2005,
+      "line_index": 193
+    },
+    {
+      "name": "宝莲灯",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 1999,
+      "line_index": 199
+    },
+    {
+      "name": "麦兜故事",
+      "watched": false,
+      "region": "国产动画",
+      "category": "搞笑日常",
+      "year": 2001,
+      "line_index": 200
+    },
+    {
+      "name": "狮子王",
+      "watched": true,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1994,
+      "line_index": 210
+    },
+    {
+      "name": "美女与野兽",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1991,
+      "line_index": 211
+    },
+    {
+      "name": "阿拉丁",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1992,
+      "line_index": 212
+    },
+    {
+      "name": "小美人鱼",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1989,
+      "line_index": 213
+    },
+    {
+      "name": "花木兰",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1998,
+      "line_index": 214
+    },
+    {
+      "name": "白雪公主与七个小矮人",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1937,
+      "line_index": 215
+    },
+    {
+      "name": "玩具总动员",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1995,
+      "line_index": 221
+    },
+    {
+      "name": "玩具总动员2",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1999,
+      "line_index": 222
+    },
+    {
+      "name": "怪兽电力公司",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2001,
+      "line_index": 223
+    },
+    {
+      "name": "海底总动员",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2003,
+      "line_index": 224
+    },
+    {
+      "name": "超人总动员",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2004,
+      "line_index": 225
+    },
+    {
+      "name": "机器人总动员(WALL·E)",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2008,
+      "line_index": 226
+    },
+    {
+      "name": "飞屋环游记",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2009,
+      "line_index": 227
+    },
+    {
+      "name": "玩具总动员3",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2010,
+      "line_index": 228
+    },
+    {
+      "name": "怪物史莱克",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2001,
+      "line_index": 234
+    },
+    {
+      "name": "功夫熊猫",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2008,
+      "line_index": 235
+    },
+    {
+      "name": "驯龙高手",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 2010,
+      "line_index": 236
+    },
+    {
+      "name": "猫和老鼠",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1940,
+      "line_index": 242
+    },
+    {
+      "name": "蓝精灵",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1981,
+      "line_index": 243
+    },
+    {
+      "name": "变形金刚",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1984,
+      "line_index": 244
+    },
+    {
+      "name": "忍者神龟",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1987,
+      "line_index": 245
+    },
+    {
+      "name": "海绵宝宝",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1999,
+      "line_index": 246
+    },
+    {
+      "name": "史努比",
+      "watched": false,
+      "region": "欧美动画",
+      "category": "搞笑日常",
+      "year": 1965,
+      "line_index": 247
+    }
+  ]
+}
